@@ -10,7 +10,7 @@ html, body{
 
 .navigation{
   height: 75vw;
-  background: url(../shawnsheu.github.io/wood.jpg);
+  background: url("https://raw.githubusercontent.com/shawnsheu/shawnsheu.github.io/master/wood.jpg");
   margin-top: -100px;
   padding: 0px;
   width: 100%;
