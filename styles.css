@@ -190,17 +190,29 @@ padding: 2vw 2vw 0;
 
 
 .contactinfo {
-  display: block;
-text-align: center;}
+text-align: center;
+font-family: 'Cedarville Cursive', cursive;
+font-size: 150%;
+line-height: .2;
+padding: 1em;
+list-style: none;
+}
+
+.contactinfo li {
+  display: inline;
+
+}
 .contactinfo img{
-  width: 50px;
+  width: 60px;
   padding: 5px;
 }
+
 
 .category{
   color: #d7a350;
   font-family: 'Cedarville Cursive', cursive;
   font-size: 2em;
+
 }
 
 .arrow-down {
@@ -213,13 +225,16 @@ margin: 0 auto;
   position: relative;
  }
 
+
+
+
  /* Smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
   .navigation{
     height: 300%;
-    background: url("woods.jpg");
+    background: url("wood.jpg");
     padding: 0px;
     width: 100%;
   background-size:cover;
@@ -243,7 +258,7 @@ and (max-device-width : 480px) {
     position: relative;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     weight: bold;
     font-family: 'Bungee Shade', cursive;
     padding-bottom: 5%;
@@ -260,7 +275,8 @@ and (max-device-width : 480px) {
   }
 
   .nav li {
-    font-size: 20px;
+    font-size: 35px;
+    display: block;
 
   }
 
@@ -288,9 +304,8 @@ and (max-device-width : 480px) {
     padding: 0;
     margin: 5% auto;
     font-size: 24px;
-    width: 90%;
+    width: 100%;
     }
-
 
 
 
