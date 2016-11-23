@@ -79,7 +79,7 @@ right: 0;
   position: relative;
   text-align: center;
   color: white;
-  font-size: 180%;
+  font-size: 300%;
   weight: bold;
   font-family: 'Bungee Shade', cursive;
   padding-bottom: 5%;
@@ -87,6 +87,7 @@ right: 0;
   line-height: .3;
 left:0;
 right:0;
+    white-space: nowrap;
 }
 
 #about{
