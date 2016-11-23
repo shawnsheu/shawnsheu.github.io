@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f6ebe7;
+
+}
+
+#large{
+  width: 60%;
+  float: left;
+}
+
+#who{
+  width: 50%;
+  float: left;
+}
+
+#full{
+  width: 20%;
+  float: right;
+}
+
+#full:hover{
+  transform: scale(3);
+}

@@ -8,6 +8,9 @@ html, body{
   padding: 0;
 }
 
+
+
+
 .navigation{
   height: 75vw;
   background: url("https://raw.githubusercontent.com/shawnsheu/shawnsheu.github.io/master/wood.jpg");
@@ -149,18 +152,28 @@ padding: 2vw 2vw 0;
 
 }
 
-.web{
-  width: 45%;
-  height: auto;
-  padding: 2vw;
+.images {
+  font-size: 0;
+  width: 100%;
   margin: 0;
+  padding: 0 3%;
+  word-spacing: px;
+  text-align: center;
+  }
+
+.images figure{
+  width: 33%;
+  margin: 0;
+  display: inline-block;
 }
 
-.images{
-  text-align: center;
-  font-size: 0;
-  display: block;
-  overflow: hidden;
+
+.images img{
+  width: 100%;
+}
+
+.images img:hover{
+  transform: scale(1.075);
 }
 
 
