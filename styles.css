@@ -9,7 +9,8 @@ html, body{
 }
 
 #whole {
-    width: 900px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
 }
@@ -79,7 +80,7 @@ right: 0;
   position: relative;
   text-align: center;
   color: white;
-  font-size: 300%;
+  font-size: 10vw;
   weight: bold;
   font-family: 'Bungee Shade', cursive;
   padding-bottom: 5%;
