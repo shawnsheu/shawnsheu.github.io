@@ -11,6 +11,7 @@ html, body{
 #whole {
     width: 900px;
     margin: 0 auto;
+    position: relative;
 }
 
 .navigation{
