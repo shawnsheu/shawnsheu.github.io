@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    max-width: 800px;
+    position; relative;
 }
 
 html, body{
