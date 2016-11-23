@@ -156,7 +156,7 @@ padding: 2vw 2vw 0;
   font-size: 0;
   width: 100%;
   margin: 0;
-  padding: 0 3%;
+  padding: 0 8%;
   word-spacing: px;
   text-align: center;
   }
@@ -172,9 +172,6 @@ padding: 2vw 2vw 0;
   width: 100%;
 }
 
-.images img:hover{
-  transform: scale(1.075);
-}
 
 
 #contact{
