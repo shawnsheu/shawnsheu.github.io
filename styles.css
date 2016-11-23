@@ -8,8 +8,10 @@ html, body{
   padding: 0;
 }
 
-
-
+#whole {
+    width: 900px;
+    margin: 0 auto;
+}
 
 .navigation{
   height: 75vw;
