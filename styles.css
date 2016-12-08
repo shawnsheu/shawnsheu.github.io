@@ -60,7 +60,30 @@ body{
   color: white;
   font-family: 'Cedarville Cursive', cursive;
   margin-top: 5%;
+  font-size: 35px;
 }
+
+.about {
+  width: 100%;
+}
+
+.about h2{
+  font-family: 'Cedarville Cursive', cursive;
+  border-bottom: solid;
+  border-color: rgba(36, 119, 44, 0.52);
+  font-size: 10vw;
+}
+
+.about p{
+  font-size: 1.5em;
+}
+
+.about img{
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+]}
 
 }
 
@@ -125,9 +148,43 @@ body{
     font-family: 'Cedarville Cursive', cursive;
     font-size: 250%;
     margin-top: 5%;
-    font-size: 50px;
+    font-size: 50px; }
 
-  }
+
+    .about {
+      width: 95%;
+      margin: 0 auto;
+      height: 100vh;
+      padding-top: 10%;
+    }
+
+    .about h2{
+      font-family: 'Cedarville Cursive', cursive;
+      font-size: 5vw;
+      border-bottom: solid;
+      border-color: rgba(36, 119, 44, 0.52);
+      margin-top: %;
+
+
+    }
+    .about p{
+      font-size: 25px;
+      margin-top: 3%;
+      margin-right: 0;
+      opacity: .8;
+    }
+
+    .about img{
+      height: 350px;
+      text-align: left;
+      transform: rotateZ(4deg);;
+      margin-top: -20%;
+      width: auto;
+
+    }
+
+
+
 
 
    }
@@ -223,7 +280,8 @@ body{
 }
 
 .about img{
-  height: 75vh;
+  height: 400px;
+  width: auto;
   text-align: left;
   transform: rotateZ(4deg);;
   margin-top: -20%;
