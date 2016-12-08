@@ -4,86 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
   <title>Shawn Sheu</title>
 </head>
 <body>
-<div id="whole">
 
-  <div class="navigation">
-
-    <div class="smaller">
-      <h3 class="subhead"> web design with a   breath   of fresh air</h3>
-    <h1 class="heights">Shawn Sheu
-</h1>
-<figure class="arrow-down">
-
-
+  <nav>
+    <ul>
+      <li><a href="#contact">contact</a></li>
+      <li><a href="#portfolio">portfolio</a></li>
+      <li><a href="#about">about</a></li>
+    </ul>
+  </nav>
+<div class="jumbotron">
+  <h1>hello, i'm shawn</h1>
+  <h3>(let's build something together!) </h3>
+</div>
+<article class="about" id="about" class="pullUp">
+  <div class="col-md-4" id="mephoto">
+    <img src="images/portrait.jpg" alt="portrait">
+  </div>
+  <div class="col-md-8" >
+    <h2>nice to meet you!</h2>
+    <p id="aboutme">
+    Call me a Philly-based web developer, violinist, cyclist, and coffee addict. Or, call me Shawn.<br>
+  I specialize in building responsive, accessible, and fun websites for nonprofits and small enterprises.<br>
+    My philosophy? Always start with the who and the what.
+  </p>
   </div>
 
-
-</div>
-</div>
-  <ul class="nav">
-    <li><a href="#about">about</a></li>
-    <li><a href="#portfolio">portfolio</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-
-
-<div id="about">
-  <div id="eh"></div>
-  <img src="portrait3.jpg" class="me" alt="portrait">
-<div class="aboutme">
-<span class="hello">Hello there!</span>  My name is Shawn.
-<br>I am a <span class="hello">Philly</span>-based <span class="hello">web developer</span>, violinist, cyclist & coffee addict.  <br>I specialize in <span class="hello">audience-driven</span> design that is fun, beautiful & accessible.
 </div>
 
-</div>
 
-<div id="portfolio">
-  <h3 class="portfoliohead">
-    Portfolio
-  </h3>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-  <div class="images">
-  <a href="nkcdc/nkcdc.html">
-    <figure>
-      <img src="nkcdc.png" alt="nkcdc">
-    </figure>
-  </a>
-  <a href="#">
-    <figure>
-    <img src="tribute2.jpg" alt="frida" class="web">
-  </figure>
-  </a>
-  <a href="#">
-    <figure>
-    <img src="nkcdc.png" alt="frida" class="web">
-  </figure>
-  </a>
-
-</div>
-</div>
-
-<footer id="contact">
-  <h3 class="contactme">Let's chat!</h3>
-  <div class="why">Got questions?  Ideas?  I'd love to talk.</div>
-
-  <ul class="contactinfo">
-    <li>    <img src="email.png" alt="email">
-        <p>shawnssheu@gmail.com </p></li>
-<li> <a href="https://facebook.com/shawn.sheu"><img src="fb.png" alt="facebook"></a> </li>
-<li> <a href="https://www.linkedin.com/in/shawn-sheu-790214111"><img src="linked.png" alt="linkedin"></a> </li>
-<li> <a href="https://instagram.com/shawnsheu"><img src="insta.png" alt="instagram"></a></li>
-
-    </div>
-</footer>
-  </div>
+      <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
