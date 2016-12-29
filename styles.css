@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Cedarville+Cursive');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+@font-face {
+    font-family: Aldi;
+    src: url(Aldi/Aldi-regular.otf);
+}
 *{
   box-sizing: border-box;
 }
@@ -250,8 +253,8 @@ body{
 
 .jumbotron h1 {
   color: white;
-  font-family: 'Cedarville Cursive', cursive;
-  font-size: 650%;
+  font-family: Aldi;
+  font-size: 500%;
   opacity: .9;
   margin-top: 13%;
 }
@@ -273,15 +276,17 @@ body{
 }
 
 .about h2{
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   border-bottom: solid;
   border-color: rgba(36, 119, 44, 0.52);
   margin-top: %;
   width: 100%;
+  font-family: Aldi;
+
 }
 
 .about p{
-  font-size: 27px;
+  font-size: 2.4vw;
   margin-top: 3%;
   margin-right: 0;
   opacity: .8;
@@ -289,7 +294,7 @@ body{
 }
 
 .about img{
-  height: 350px;
+  height: 320px;
   width: auto;
   text-align: left;
   transform: rotateZ(4deg);;
@@ -309,9 +314,12 @@ body{
 .portfolio h2{
   font-size: 4.5vw;
   text-align: center;
+  font-family: Aldi;
+
 }
 
 .portfolio p{
+
   font-size: 2vw;
   opacity: .8;
   width: 85%;
@@ -332,6 +340,7 @@ color: white;
 .contactme{
   text-align: center;
   font-size: 4.5vw;
+  font-family: Aldi;
 
 }
 
