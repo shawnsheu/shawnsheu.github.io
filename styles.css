@@ -69,10 +69,14 @@ body{
   border-bottom: solid;
   border-color: rgba(36, 119, 44, 0.52);
   font-size: 10vw;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .about p{
   font-size: 1.5em;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .about img{
@@ -80,7 +84,13 @@ body{
   width: 250px;
   text-align: center;
   margin: 0 auto;
-]}
+  transform: rotateZ(4deg);
+
+}
+.portfolio img {
+  width: 100%;
+}
+
 
 }
 
@@ -180,7 +190,9 @@ body{
 
     }
 
-
+    .portfolio img {
+      width: 100%;
+    }
 
 
 
@@ -254,35 +266,104 @@ body{
 }
 
 .about {
-  width: 95%;
+  width: 85%;
   margin: 0 auto;
-  height: 100vh;
+  height: 85vh;
   padding-top: 10%;
 }
 
 .about h2{
   font-family: 'Cedarville Cursive', cursive;
-  font-size: 5vw;
+  font-size: 4.5vw;
   border-bottom: solid;
   border-color: rgba(36, 119, 44, 0.52);
   margin-top: %;
+  width: 100%;
 
 
 }
+
 .about p{
-  font-size: 2.5vw;
+  font-size: 27px;
   margin-top: 3%;
   margin-right: 0;
   opacity: .8;
+  width: 100%;
 }
 
 .about img{
-  height: 400px;
+  height: 350px;
   width: auto;
   text-align: left;
   transform: rotateZ(4deg);;
   margin-top: -20%;
 }
 
+.portfolio {
+  margin: 0 40px;
+  height: 100%;
+  display: inline-block;
+}
+
+.portfolio img {
+  width: 100%;
+}
+
+.portfolio h2{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+.portfolio p{
+  font-size: 2vw;
+  opacity: .8;
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#contact{
+margin-top: 90px;
+padding-top: 40px;
+background-color: rgba(215, 163, 80, 0.8);
+color: white;
+
+}
+
+.contactme{
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  font-size: 4.5vw;
+
+}
+
+.why{
+  text-align: center;
+  font-size: 2.3vw;
+  line-height: 1.5em;
+}
+
+
+.contactinfo {
+text-align: center;
+font-family: 'Cedarville Cursive', cursive;
+font-size: 150%;
+padding: 1em;
+list-style: none;
+
+}
+
+.contactinfo li {
+  display: inline;
+
+}
+
+.contactinfo img{
+  width: 60px;
+  padding: 5px;
+}
 
 }
