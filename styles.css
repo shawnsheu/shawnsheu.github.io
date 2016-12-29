@@ -273,14 +273,11 @@ body{
 }
 
 .about h2{
-  font-family: 'Cedarville Cursive', cursive;
   font-size: 4.5vw;
   border-bottom: solid;
   border-color: rgba(36, 119, 44, 0.52);
   margin-top: %;
   width: 100%;
-
-
 }
 
 .about p{
@@ -310,7 +307,6 @@ body{
 }
 
 .portfolio h2{
-  font-family: 'Cedarville Cursive', cursive;
   font-size: 4.5vw;
   text-align: center;
 }
@@ -334,7 +330,6 @@ color: white;
 }
 
 .contactme{
-  font-family: 'Cedarville Cursive', cursive;
   text-align: center;
   font-size: 4.5vw;
 
@@ -349,7 +344,6 @@ color: white;
 
 .contactinfo {
 text-align: center;
-font-family: 'Cedarville Cursive', cursive;
 font-size: 150%;
 padding: 1em;
 list-style: none;
