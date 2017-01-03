@@ -225,7 +225,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: 25px;
-    opacity: .8;
+    opacity: .0;
   }
 
   nav li a:hover{
@@ -237,7 +237,7 @@ body{
 
 .jumbotron {
     position: relative;
-    background: url("images/cups.jpg");
+    background: url("images/sky.jpg");
     background-position: center;
     width: 100%;
     height: 100vh;
@@ -252,25 +252,40 @@ body{
 }
 
 
-.jumbotron h1 {
-  color: white;
-  font-family: Aldi;
-  font-size: 500%;
-  opacity: .9;
-  margin-top: 13%;
-}
-
 .jumbotron h3 {
   color: white;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: Aldi;
   font-size: 250%;
-  margin-top: 3%;
-  font-size: 50px;
+  opacity: .9;
+  margin-top: 2%;
+}
+
+
+.jumbotron h1 {
+
+  color: white;
+  font-family: 'Cedarville Cursive', cursive;
+  margin-top: 13%;
+  font-size: 400%;
   opacity: .9;
 }
 
+
+
+
+.jumbotron li {
+  list-style: none;
+  display: inline;
+}
+.jumbotron img {
+    width: 40px;
+    padding: 5px;
+    margin-top: 150px;
+  }
+
+
 .about {
-  width: 85%;
+  width: 83%;
   margin: 0 auto;
   height: 85vh;
   padding-top: 10%;
@@ -279,7 +294,7 @@ body{
 .about h2{
   font-size: 3.5vw;
   border-bottom: solid;
-  border-color: rgba(36, 119, 44, 0.52);
+  border-color: rgba(36, 119, 44, 0);
   margin-top: %;
   width: 100%;
   font-family: Aldi;
@@ -295,21 +310,26 @@ body{
 }
 
 .about img{
-  height: 320px;
+  height: 45vh;
   width: auto;
   text-align: left;
-  transform: rotateZ(4deg);;
-  margin-top: -20%;
+  transform: rotateZ(0deg);;
+  margin-top: 0vh;
 }
 
 .portfolio {
-  margin: 0 40px;
+  margin: 0 50px;
   height: 100%;
   display: inline-block;
+  padding: 0 50px;
 }
 
 .portfolio img {
   width: 100%;
+}
+
+.portfolio img:hover {
+  opacity: .7;
 }
 
 .portfolio h2{
@@ -333,7 +353,7 @@ body{
 #contact{
 margin-top: 90px;
 padding-top: 40px;
-background-color: rgba(215, 163, 80, 0.8);
+background-color: rgba(212, 133, 8, 0.8);
 color: white;
 
 }
